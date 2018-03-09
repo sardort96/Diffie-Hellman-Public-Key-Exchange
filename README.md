@@ -8,6 +8,7 @@ First, a large prime number p is chosen. Then, a generator g is chosen such that
 A special case of a substitution cipher is the Ceasar cipher. Substitution ciphers are ciphers in which each letter of the alphabet is substituted by another letter. In the Ceasar cipher, the alphabet is shifted by a certain number that is identified by the chosen key. Each letter is assigned a number in the following fashion: A->0, B->1,..., Z->25. As a case in point, if the alphabet is shifted by five places, letter A in the plaintext becomes F in the ciphertext. In this case, Julius Caesar's cipher can be expressed as y = x + 5 (mod 26).
 ## Sample Run
 Here is how the program encrypts a message. 
+
 ![](sampleRun.PNG)
 
 Reference:<br />
